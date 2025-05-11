@@ -1,0 +1,86 @@
+/* ResetOneBox.css */
+.reset-container {
+  display: inline-block;
+}
+
+.reset-button {
+  background-color: var(--reset-color);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.reset-button:hover {
+  background-color: var(--reset-hover);
+}
+
+.reset-confirmation-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.reset-confirmation-content {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: var(--text-primary);
+}
+
+.reset-confirmation-content h3 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+.reset-confirmation-content p {
+  margin-bottom: 20px;
+  color: var(--text-secondary);
+}
+
+.reset-confirmation-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.cancel-reset {
+  background-color: var(--neutral-color);
+  color: var(--text-primary);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cancel-reset:hover {
+  background-color: var(--neutral-hover);
+}
+
+.confirm-reset {
+  background-color: var(--reset-color);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.confirm-reset:hover {
+  background-color: var(--reset-hover);
+}

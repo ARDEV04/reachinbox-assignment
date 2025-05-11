@@ -1,0 +1,86 @@
+/* ThreadDeletion.css */
+.thread-deletion-container {
+  display: inline-block;
+}
+
+.thread-delete-button {
+  background-color: var(--delete-color);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.thread-delete-button:hover {
+  background-color: var(--delete-hover);
+}
+
+.confirmation-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.confirmation-content {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: var(--text-primary);
+}
+
+.confirmation-content h3 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+.confirmation-content p {
+  margin-bottom: 20px;
+  color: var(--text-secondary);
+}
+
+.confirmation-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.cancel-confirmation {
+  background-color: var(--neutral-color);
+  color: var(--text-primary);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cancel-confirmation:hover {
+  background-color: var(--neutral-hover);
+}
+
+.confirm-delete {
+  background-color: var(--delete-color);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.confirm-delete:hover {
+  background-color: var(--delete-hover);
+}
