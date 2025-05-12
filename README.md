@@ -18,6 +18,11 @@ This is a full-featured React-based web application that simulates an email thre
 
 ---
 
+## 🔗 Live Link
+
+🌐 [Click here to view the app](https://mellow-muffin-35115d.netlify.app/)
+
+---
 ## 📁 Folder Structure
 
 ```bash
