@@ -1,74 +1,100 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# ReachInbox Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-featured React-based web application that simulates an email thread management system. It includes user authentication (email & Google login), fetching, replying, deleting, and resetting of email threads via APIs. The interface features a responsive sidebar layout and day/night theme switching.
 
-## Available Scripts
+![App Screenshot](./src/images/image.png)
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔐 Login & Signup (Email/Password + Google OAuth)
+- 📥 Fetch all email threads from server
+- 🗑️ Delete a thread from the server
+- ♻️ Reset threads
+- 📬 Reply to threads
+- 🌗 Day/Night Mode toggle
+- 🧭 Sidebar navigation (OneBox.js)
+- 🧩 Dynamic component rendering based on route
+- 🛠️ Clean modular file structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Folder Structure
 
-### `npm test`
+```bash
+reachinbox-assignment/
+├── build/
+├── node_modules/
+├── public/
+│   ├── favicon.ico
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── getThreads.js
+│   │   ├── login.css
+│   │   ├── Login.js
+│   │   ├── LoginForm.js
+│   │   ├── OneBox.css
+│   │   ├── OneBox.js
+│   │   ├── ResetOneBox.css
+│   │   ├── ResetOneBox.js
+│   │   ├── Signup.js
+│   │   ├── SignupForm.js
+│   │   ├── ThreadDeletion.css
+│   │   ├── ThreadDeletion.js
+│   │   ├── ThreadList.js
+│   │   ├── ThreadReply.css
+│   │   └── ThreadReply.js
+│   ├── images/
+│   │   └── image.png
+│   ├── App.css
+│   ├── App.js
+│   └── index.js
+├── package.json
+├── package-lock.json
+└── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧑‍💻 How to Fork or Clone This Repo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔁 Fork This Repository
 
-### `npm run eject`
+1. Visit [this repo]([https://github.com/YOUR_USERNAME/reachinbox-assignment](https://github.com/ARDEV04/reachinbox-assignment))
+2. Click the **"Fork"** button in the top-right corner
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📥 Clone the Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/YOUR_USERNAME/reachinbox-assignment.git
+cd reachinbox-assignment
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Installation & Running the App
+### Make sure you have Node.js and npm installed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Install dependencies
+npm install
+# Start development server
+npm start
+```
 
-## Learn More
+## 🎥 Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📹 **Video Walkthrough**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Watch the demo](./src/images/image.png)](https://drive.google.com/file/d/19QDg8qDCyHwDyykBcwivfXI_gw6IRUKE/view?usp=drive_link)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧰 Tech Stack
+- Frontend: React, JSX, CSS
+- Routing & State: useState, useEffect
+- Authentication: Email/Password & Google OAuth
+- API: fetch or axios to interact with backend
+- UI: Responsive layout with light/dark mode
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# reachinbox-assignment
->>>>>>> b1d815578b852e8255585161da1a7ac7a49f4339
+## 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
