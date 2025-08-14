@@ -67,7 +67,7 @@ reachinbox-assignment/
 
 ### 🔁 Fork This Repository
 
-1. Visit [this repo]([https://github.com/YOUR_USERNAME/reachinbox-assignment](https://github.com/ARDEV04/reachinbox-assignment))
+1. Visit [this repo]([https://github.com/ARDEV04/reachinbox-assignment](https://github.com/ARDEV04/reachinbox-assignment))
 2. Click the **"Fork"** button in the top-right corner
 
 ### 📥 Clone the Repository
