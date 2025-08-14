@@ -73,7 +73,7 @@ reachinbox-assignment/
 ### 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/reachinbox-assignment.git
+git clone https://github.com/ARDEV04/reachinbox-assignment.git
 cd reachinbox-assignment
 ```
 
